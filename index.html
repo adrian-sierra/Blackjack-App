@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Play</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1 id="result"></h1>
+    <div id="playing-cards">
+      <div id="player-images">
+        <button id="player-add-button" onclick="addCardPlayer()">Hit</button>
+        <img id="player-card-1" />
+        <img id="player-card-2" />
+        <p id="player-total">Player Total:</p>
+      </div>
+      <div id="dealer-images">
+        <button id="dealer-add-button" onclick="addCardDealer()">Hit</button>
+        <img id="dealer-card-1" />
+        <img id="dealer-card-2" />
+        <p id="dealer-total">Dealer Total:</p>
+      </div>
+    </div>
+    <a href="./index.html">
+      <button id="start-over">Start Over</button>
+    </a>
+    <script src="./random.js"></script>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.219);
+  background-image: url("./img/blackjack-2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  background-size: cover;
+  text-align: center;
+  padding-top: 10%;
+  font-family: sans-serif;
+}
+
+#result {
+  font-size: 4rem;
+  margin-bottom: 2em;
+  color: white;
+}
+
+#playing-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+#player-images,
+#dealer-images {
+  width: 40%;
+}
+
+#player-card-1,
+#player-card-2,
+#dealer-card-1,
+#dealer-card-2,
+#player-new-card,
+#dealer-new-card {
+  width: 12vw;
+}
+
+#player-new-card,
+#dealer-new-card {
+  margin-left: 0.25em;
+}
+
+#player-total,
+#dealer-total {
+  margin: 0.5em 0;
+  font-size: 2rem;
+  color: white;
+}
+
+#player-add-button,
+#dealer-add-button,
+#start-over {
+  display: block;
+  margin: 2em auto;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.75em 2em;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 1s;
+  transition: color 0.5s;
+}
+
+#player-add-button:hover,
+#dealer-add-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+#start-over {
+  padding: 0.75em 1.5em;
+}
